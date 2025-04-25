@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore Rider files (if using)
+.idea/
+
+# Ignore docker local files if needed
+**/DockerGymApp.Service/http/
+
+# Optional: Ignore other temp files
+*.log
+*.tmp

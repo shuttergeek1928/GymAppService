@@ -1,0 +1,6 @@
+@DockerGymApp.Service_HostAddress = http://localhost:5291
+
+GET {{DockerGymApp.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
